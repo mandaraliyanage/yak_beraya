@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Project-wide base styles */
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: radial-gradient(1200px 750px at 10% 12%, rgba(239, 68, 68, 0.16), transparent 62%),
+    radial-gradient(950px 650px at 88% 18%, rgba(245, 158, 11, 0.13), transparent 60%),
+    radial-gradient(900px 700px at 42% 92%, rgba(250, 204, 21, 0.1), transparent 64%),
+    #1a0b05;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Better media defaults */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Subtle scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.18) transparent;
+}
