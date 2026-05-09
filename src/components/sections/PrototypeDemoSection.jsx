@@ -17,8 +17,7 @@ export function PrototypeDemoSection() {
           Watch the system in action
         </h2>
         <p className="mt-3 text-sm text-white/65">
-          Embed your YouTube demo, add simulation clips, and include working screenshots.
-          The call-to-actions below are designed for final presentations.
+          
         </p>
 
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
@@ -46,7 +45,7 @@ export function PrototypeDemoSection() {
               Download APK
             </div>
             <div className="mt-2 text-sm text-white/60">
-              Link your mobile build or installer
+              find attached mobile build or installer
             </div>
           </a>
           <a
@@ -61,7 +60,7 @@ export function PrototypeDemoSection() {
               Live demo
             </div>
             <div className="mt-2 text-sm text-white/60">
-              {site.links.demo ? 'Open hosted app' : 'Add a demo URL in site data'}
+              {site.links.demo ? 'Open hosted app' : 'demo URL for the site data'}
             </div>
           </a>
         </div>
@@ -74,15 +73,15 @@ export function PrototypeDemoSection() {
         transition={{ duration: 0.4, delay: 0.05 }}
         className="rounded-3xl border border-white/10 bg-gradient-to-br from-red-500/20 via-amber-400/15 to-yellow-300/15 p-7"
       >
-        <div className="text-sm font-semibold text-white/75">Presentation tip</div>
+        <div className="text-sm font-semibold text-white/75">Research scope</div>
         <div className="mt-2 text-xl font-semibold text-white">
-          Keep the demo short and visual
+          AI powered predictions on Pahatharata Dancing
         </div>
         <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-white/70">
-          <li>Start with the pose overlay</li>
-          <li>Show scoring and corrections</li>
-          <li>Demonstrate 1–2 dance steps end-to-end</li>
-          <li>End with user feedback / results</li>
+        <li>Utilizes real-time motion tracking for effective learning.</li>
+          <li>Integrates cultural elements to preserve traditional dance.</li>
+          <li>Provides immediate feedback for improved performance.</li>
+          <li>Accessible to learners in remote areas through a web application.</li>
         </ul>
       </motion.div>
     </section>

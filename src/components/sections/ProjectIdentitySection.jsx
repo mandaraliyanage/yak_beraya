@@ -23,7 +23,7 @@ export function ProjectIdentitySection() {
         <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
           {[
             { icon: FiBookOpen, k: 'Domain', v: site.identity.domain },
-            { icon: FiAward, k: 'Supervisor', v: site.identity.supervisor },
+            { icon: FiAward, k: 'Department', v: site.identity.supervisor },
             { icon: FiUsers, k: 'University', v: site.identity.university },
           ].map((it) => (
             <div
@@ -47,7 +47,7 @@ export function ProjectIdentitySection() {
         transition={{ duration: 0.4, delay: 0.05 }}
         className="rounded-3xl border border-white/10 bg-white/[0.03] p-7"
       >
-        <div className="text-sm font-semibold text-white/75">Team</div>
+        <div className="text-sm font-semibold text-white/75">Author</div>
         <div className="mt-4 space-y-3">
           {site.identity.team.map((m) => (
             <div
@@ -59,9 +59,7 @@ export function ProjectIdentitySection() {
             </div>
           ))}
         </div>
-        <div className="mt-5 text-xs text-white/50">
-          Tip: update `src/data/site.js` with real names and links.
-        </div>
+
       </motion.div>
     </section>
   )

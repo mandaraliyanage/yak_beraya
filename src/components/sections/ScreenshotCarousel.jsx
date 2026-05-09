@@ -29,9 +29,7 @@ export function ScreenshotCarousel({ images }) {
       transition={{ duration: 0.35 }}
       className="rounded-3xl border border-white/10 bg-white/[0.03] p-4"
     >
-      <div className="text-sm font-semibold text-white/75 px-2 pt-2">
-        Screenshot gallery
-      </div>
+      
 
       <div className="mt-4">
         <Swiper

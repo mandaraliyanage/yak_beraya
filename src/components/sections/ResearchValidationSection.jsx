@@ -5,27 +5,27 @@ const blocks = [
   {
     icon: FiBook,
     title: 'Literature review',
-    text: 'Summarize related work in pose estimation, skill learning, and feedback-driven training.',
+    text: 'Current research in Human Pose Estimation (HPE) is shifting from expensive, marker-based systems to accessible, marker-less frameworks like MediaPipe that extract 3D skeletal keypoints from standard RGB video. However, standard models often struggle with the deep, wide stances and unique biomechanics of South Asian dances like the "Mandiya" posture. To capture the explosive footwork and leap kinetics of Pahatharata, recent studies suggest integrating Long Short-Term Memory (LSTM) networks and Dynamic Time Warping (DTW) to model temporal dynamics and align learner movements with expert "gold standard" performances.',
   },
   {
     icon: FiClipboard,
     title: 'Methodology',
-    text: 'Explain model choice, feature extraction, comparison method, and feedback rules.',
+    text: 'The research follows a Design Science Research (DSR) methodology to develop a novel technological artifact for dance pedagogy. The technical pipeline utilizes Python and OpenCV for video frame processing and MediaPipe (BlazePose) for real-time 3D landmark detection. A core component of the methodology is the use of Dynamic Time Warping (DTW) to analyze the similarity between continuous sequences of hand gestures (ilangam saraba) and footwork (pa saraba). The system is designed as a Progressive Web App (PWA) to ensure offline functionality and accessibility for rural learners..  ',
   },
   {
     icon: FiUsers,
     title: 'Data collection',
-    text: 'Reference performances, labeled steps, and any augmentation or preprocessing.',
+    text: 'Ground truth data is gathered by recording certified Pahatharata gurus performing foundational dance sequences. These recordings are processed using a Hip-Center Normalization algorithm to extract 33 three-dimensional body landmarks, ensuring the dataset is independent of camera distance or user height. All data collection is conducted with written informed consent, and video recordings are stored securely to maintain personal privacy and comply with ethical research standards.',
   },
   {
     icon: FiSettings,
     title: 'Experiment setup',
-    text: 'Device constraints, camera positioning, latency targets, and evaluation protocol.',
+    text: 'The high-level system architecture consists of four primary tiers: Video Capture, Body Tracking, Smart Analysis, and Dancer Feedback. The experimental setup involves capturing a 30 FPS RGB stream through a webcam, which is then normalized and processed through a 60-frame temporal sliding window. The system matches these live coordinates against the expert reference library in real time, triggering biomechanical validation for torso alignment, arm symmetry, and rhythmic footwork patterns.',
   },
   {
     icon: FiBarChart2,
-    title: 'Results',
-    text: 'Accuracy metrics, latency, scoring consistency, and user feedback summaries.',
+    title: 'Expected Results',
+    text: 'The system aims to achieve a minimum of 90% pose similarity accuracy for traditional Pahatharata movements. Performance benchmarks include maintaining a feedback delay of less than 100ms and ensuring stable operation for continuous 30-minute practice sessions. Ultimately, the research expects to demonstrate a statistically significant improvement in movement precision among beginners compared to traditional video-based learning methods.',
   },
 ]
 

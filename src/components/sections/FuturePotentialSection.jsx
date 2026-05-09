@@ -34,10 +34,10 @@ export function FuturePotentialSection() {
         <h2 className="mt-1 text-2xl font-semibold text-white">
           Where this can go next
         </h2>
-        <p className="mt-2 max-w-3xl text-sm text-white/65">
+        {/* <p className="mt-2 max-w-3xl text-sm text-white/65">
           This section is important for grading. It connects the prototype to real-world
           adoption and a long-term roadmap.
-        </p>
+        </p> */}
       </div>
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">

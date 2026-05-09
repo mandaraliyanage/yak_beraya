@@ -13,19 +13,19 @@ const resources = [
     icon: FiFileText,
     title: 'Poster',
     desc: 'Project poster for exhibition',
-    href: '/documents/poster.pdf',
+    href: 'https://drive.google.com/file/d/1SF0JRRmYwq_J43xopFLQ3grjQsjdsetu/view?usp=sharing',
   },
   {
     icon: FiFileText,
     title: 'Slides',
     desc: 'Presentation deck',
-    href: '/documents/slides.pdf',
+    href: 'https://www.canva.com/design/DAHC0PfPZqA/U4zgOb-dOQ-FMIWpazSFYg/edit',
   },
   {
     icon: FiFileText,
     title: 'User manual',
     desc: 'How to run the prototype',
-    href: '/documents/user-manual.pdf',
+    href: 'https://drive.google.com/file/d/1Cv2dHPnEbZ9v2Euct-KehqDgoeQTBsHi/view?usp=sharing',
   },
 ]
 
@@ -35,9 +35,7 @@ export function ResourcesDownloadSection() {
       <div>
         <div className="text-sm font-semibold text-white/75">Downloads & repository</div>
         <h2 className="mt-1 text-2xl font-semibold text-white">Resources</h2>
-        <p className="mt-2 max-w-3xl text-sm text-white/65">
-          Add your PDFs under `public/documents/` to make these download buttons work.
-        </p>
+        
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -72,8 +70,28 @@ export function ResourcesDownloadSection() {
         <div className="lg:col-span-2 rounded-3xl border border-white/10 bg-white/[0.03] p-6">
           <div className="text-sm font-semibold text-white/75">Abstract</div>
           <p className="mt-2 text-sm text-white/65">
-            Replace this paragraph with your research abstract. Focus on the problem,
-            the proposed method, and your key results. Keep it concise for evaluators.
+          Traditional Sri Lankan regional dance forms, including Pahatharata (Low Country dance), rely
+heavily on in-person instruction from expert gurus, which is subjective, time intensive, and
+inaccessible due to geographic, financial, and instructor availability barriers. This limits
+objective self-practice, real time feedback, and cultural preservation, especially for rural
+learners and beginners, as existing computer vision systems target Western dances and
+overlook Pahatharata's explosive footwork, leap kinetics, vertical velocity, and landing
+precision.
+The research gap lies in the absence of culturally specific, real-time motion tracking tools for
+Pahatharata, lacking localized datasets, stylistic nuance recognition (e.g.low country
+biomechanics) and accessible feedback systems without expensive hardware.
+Our proposed solution develops an interactive, webcam-based module for Pahatharata dance
+learning, using MediaPipe for pose estimation, custom models trained on gururecorded datasets
+and real time error detection with visual heatmaps, audio cues, and performance reports.
+Technologies include Python with OpenCV, MediaPipe for sequence modeling, and
+deployment as a Progressive Web App (PWA) for smartphone compatibility and offline use.
+Expected outcomes feature accuracy in Pahatharata posture validation, automated reports on
+accuracy, errors, and improvements, enabling home based self learning.
+Socially, it promotes cultural heritage preservation, youth engagement, and equitable access
+across urban rural divides; commercially, it supports EdTech apps for dance academies and
+cultural tourism.
+Keywords: Pahatharata dance, motion tracking, computer vision, real time feedback, cultural
+preservation.
           </p>
         </div>
 
@@ -94,7 +112,7 @@ export function ResourcesDownloadSection() {
             </a>
           </div>
           <div className="mt-4 text-xs text-white/55">
-            Add your real links in `src/data/site.js`.
+            
           </div>
         </div>
       </div>

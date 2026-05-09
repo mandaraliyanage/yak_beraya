@@ -17,8 +17,7 @@ export function ContactSection() {
           Reach the research team
         </h2>
         <p className="mt-3 text-sm text-white/65">
-          Add your official university email(s), supervisor contact, and repository link.
-          This is useful for examiners and future collaborators.
+        We welcome inquiries regarding research collaborations, technical demonstrations, and the preservation of Sri Lankan intangible cultural heritage. Whether you are a dance practitioner, an EdTech developer, or a cultural enthusiast, we would love to hear from you.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-3">
@@ -50,12 +49,14 @@ export function ContactSection() {
         transition={{ duration: 0.35, delay: 0.05 }}
         className="rounded-3xl border border-white/10 bg-gradient-to-br from-red-500/20 via-amber-400/15 to-yellow-300/15 p-7"
       >
-        <div className="text-sm font-semibold text-white/75">Quick checklist</div>
+        <div className="text-sm font-semibold text-white/75">Contact us on</div>
         <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-white/70">
-          <li>Update names + supervisor</li>
-          <li>Add GitHub + demo links</li>
-          <li>Upload PDFs to `public/documents/`</li>
-          <li>Add hero video to `public/videos/hero.mp4`</li>
+          <li>Youtube</li>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Tiktok</li>
+          <li>Kindly search @yakberaya on any of the above platforms</li>
         </ul>
       </motion.div>
     </section>

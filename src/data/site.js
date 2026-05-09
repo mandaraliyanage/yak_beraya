@@ -7,21 +7,19 @@ export const site = {
     'Interactive Real-Time Motion Tracking Based System for Learning Sri Lankan Traditional Pahatharata Dancing',
   tagline: 'Preserving Sri Lankan cultural heritage through AI-powered motion learning.',
   identity: {
-    university: 'Your University Name',
+    university: 'Sri Lanka Institute of Information Technology',
     domain: 'Computer Vision • Human Pose Estimation • Real-time Feedback',
-    supervisor: 'Supervisor Name',
+    supervisor: 'Interactive Media',
     team: [
-      { name: 'Team Member 1', role: 'Developer / Researcher' },
-      { name: 'Team Member 2', role: 'Developer / Researcher' },
-      { name: 'Team Member 3', role: 'Developer / Researcher' },
-      { name: 'Team Member 4', role: 'Developer / Researcher' },
+      { name: 'Deeshana Sheshan - IT22273826 Gamage Dsep', role: 'Pahatharata Dancing - (Developer) ' },
+  
     ],
   },
   links: {
     github: '',
-    email: 'your.email@example.com',
+    email: 'sheshanpalihapitiya@gmail.com',
     demo: '',
-    youtube: '',
+    youtube: 'https://www.youtube.com/watch?v=M6xySAxPL0g&list=RDM6xySAxPL0g&start_radio=1',
   },
   assets: {
     heroVideo: '/videos/hero.mp4',
