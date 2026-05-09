@@ -17,9 +17,7 @@ export function MediaTeaserSection() {
           The most important section for demo day
         </h2>
         <p className="mt-3 text-sm text-white/65">
-          Add screenshots, UI mockups, pose-tracking flow diagrams, system architecture,
-          and demo videos. This page is designed to look impressive even with a small set
-          of assets.
+          
         </p>
 
         <div className="mt-6 flex flex-wrap gap-3">

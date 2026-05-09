@@ -63,8 +63,7 @@ export function MediaGallerySection({ page }) {
         </h2>
 
         <p className="mt-2 max-w-3xl text-sm text-white/65">
-          Add screenshots, UI mockups, system architecture, and pose tracking
-          diagrams. The gallery now supports automatic image scrolling.
+         
         </p>
       </div>
 
