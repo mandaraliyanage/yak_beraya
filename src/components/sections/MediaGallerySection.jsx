@@ -4,7 +4,17 @@ import { VideoPlayer } from './VideoPlayer'
 import { WorkflowDiagram } from './WorkflowDiagram'
 import { site } from '../../data/site'
 
-export function MediaGallerySection() {
+const bannerImages = {
+  about: '/assets/images/hero/about.png',
+  contact: '/assets/images/hero/contact.png',
+  demonstration: '/assets/images/hero/demo.png',
+  resources: '/assets/images/hero/resources.png',
+  research: '/assets/images/hero/research.png',
+}
+
+export function MediaGallerySection({ page }) {
+  const bannerSrc = bannerImages[page] || '/images/screenshots/dance_couple.png'
+
   return (
     <section className="space-y-6">
       <div>
@@ -20,9 +30,7 @@ export function MediaGallerySection() {
         <div className="lg:col-span-3">
           <ScreenshotCarousel
             images={[
-              { src: '/images/screenshots/dance_couple.png', alt: 'Screenshot 3' },
-              { src: '/images/screenshots/dance_couple.png', alt: 'Screenshot 3' },
-              { src: '/images/screenshots/dance_couple.png', alt: 'Screenshot 3' },
+              { src: bannerSrc, alt: `${page} banner` },
             ]}
           />
         </div>
@@ -54,4 +62,3 @@ export function MediaGallerySection() {
     </section>
   )
 }
-
